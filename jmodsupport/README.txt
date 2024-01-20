@@ -5,16 +5,17 @@ A:First,  enter in sv_plugin, and gently add new parametr(cuz sometimes it wont 
 
 like
 local entityToItem = {
-    ["ent_aboot_gmod_ezarmor_jetmodule_admin"] = "Admin Jet Module",
+    ["ent_aboot_gmod_ezarmor_jetmodule_admin"] = "cmbjetpack",
 }
 
 to
 
 local entityToItem = {
-    ["ent_aboot_gmod_ezarmor_jetmodule_admin"] = "Admin Jet Module",
-	["ent_armor"] = "Name of armor in jmod_ez_inv"
+    ["ent_aboot_gmod_ezarmor_jetmodule_admin"] = "cmbjetpack",
+	["ent_armor"] = "Name of armor which u call in item (like sh_cmbjetpack.lua)"
 }
-
+like
+["ent_armor"] = "helmet" (if ur item is sh_helmet.lua)
 ok, now about item
 
 just copy file in  Garmors and most important, in 
@@ -33,3 +34,4 @@ credit me if u gonna use it, thanks
 P.S
 
 I RECOMMEND TO  USE JMOD FROM OPENGRAD GAMEMODE cause it doesnt require color of armor to choose(may be issues with other jmod addon)
+
